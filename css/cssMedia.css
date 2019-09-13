@@ -1,0 +1,127 @@
+ /* ******* WHEN THE SCREEN IS WIDER THAN 396PX  ******* */
+@media screen and (min-width: 396px){
+    nav h1{
+        max-width: 360px;
+    }
+    .reviewName{
+        width: 41%;
+    }
+    .filter-options select{
+        margin-left: 35px;
+        width: auto;
+    }
+    #restaurant-name{
+        font-size: 20pt;
+    }
+}
+ /* ******* WHEN THE SCREEN IS WIDER THAN 450PX  ******* */
+ @media screen and (min-width: 450px){
+    #restaurants-list{
+        margin:0 auto;
+        width: 80%;
+    }
+    nav h1{
+        padding-top: 26px;
+        max-width: 100%;
+    }
+    nav h1 a{
+        font-size: 16pt;
+    }
+}
+ /* ******* WHEN THE SCREEN IS WIDER THAN 600px  ******* */
+@media screen and (min-width: 600px){
+    nav h1 a{
+        font-size: 18pt;
+    }
+    #restaurants-list{
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #restaurants-list li{
+        width: 47%;
+        margin: 15px 5px; 
+        box-sizing: content-box;
+    }
+    /* ***** RESTAURANT DETAIL ***** */
+    #restaurant-container{
+        width: 85%;
+        margin: 97px auto 0;
+    }
+    #reviews-container{
+        width: 85%;
+        margin: 0 auto;
+    }
+    #restaurant-container img{
+        border-radius: 2px 2px 0 0;
+    }
+    .reviewName{
+        font-size: 11pt;
+        text-indent: 8px;
+    }
+    #restaurant-name{
+        margin: 20px 0;
+    }
+    #restaurant-address{
+        text-align: center;
+    }    
+    #restaurant-hours{
+        width:340px;
+        margin: 0 auto;
+    }
+}
+ /* ******* WHEN THE SCREEN IS WIDER THAN 800PX  ******* */
+@media screen and (min-width: 800px){
+    #restaurant-container{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 90px 5px 30px;
+    }
+    #restaurants-list{
+        padding-top: 0;
+    }
+    #restaurants-list li{
+        width: 31%;
+        margin: 15px 8px;
+    }
+    #restaurants-list li:nth-child(3n){
+        margin-right: 0px;
+    }
+    .filter-options{
+        width: 450px;
+        margin: 15px auto 0;
+        border-radius: 20px 0px 2px 20px;   
+        float: right;     
+    }
+    .filter-options:hover, .filter-options:focus-within{
+        width: 500px;
+    }
+    #map{
+        height: 500px;
+    }
+}
+ /* ******* WHEN THE SCREEN IS WIDER THAN 1300px  ******* */
+@media screen and (min-width: 1300px){
+    body{
+        width: 1300px;
+        margin: 0 auto;
+    }
+    #restaurants-list li{
+        width: 29%;
+        margin: 15px;
+    }
+    #restaurants-list li:hover, #restaurants-list li:focus-within{
+        width: 30%;
+        margin: 15px;
+    }
+    nav{
+        width: 1300px;
+    }
+    #breadcrumb{
+        width: 1300px;   
+    }
+    #reviews-container{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
